@@ -1,0 +1,25 @@
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# Package Files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# NetBeans build and private config files
+Hostel-Management-CLI/build/
+Hostel-Management-CLI/dist/
+Hostel-Management-CLI/bin/
+Hostel-Management-CLI/nbproject/private/
+
+# Other temporary or crash files
+hs_err_pid*
+replay_pid*
+.mtj.tmp/
