@@ -6,13 +6,15 @@
 
 ## 📸 Screenshots
 
-*Save your actual screenshots under the `screenshots/` directory with the names below to display them on GitHub:*
+Here is a visual walkthrough of the StayFlow Hub application:
 
-| 🔑 Setup & Login | 📊 Admin Dashboard |
+| 🔑 1. Database Setup | 👥 2. Role Selection |
 |:---:|:---:|
-| ![Database Setup & Login](screenshots/login.png) | ![Admin Dashboard Statistics](screenshots/admin_dashboard.png) |
-| **🛏️ Room Management** | **🍽️ Cafeteria Menu** |
-| ![Room Allocation](screenshots/rooms_management.png) | ![Meal Plans selection](screenshots/cafeteria.png) |
+| ![Database Setup](screenshots/login.png) | ![Role Selection](screenshots/role_selection.png) |
+| **📊 3. Admin Dashboard** | **🛏️ 4. Room Management** |
+| ![Admin Dashboard](screenshots/admin_dashboard.png) | ![Room Management](screenshots/room_management.png) |
+| **🎓 5. Student Dashboard** | |
+| ![Student Dashboard](screenshots/student_dashboard.png) | |
 
 ---
 
