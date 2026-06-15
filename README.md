@@ -1,26 +1,26 @@
-# StayFlow Hub 🏠 — Hostel Management System
+# StayFlow Hub — Hostel Management System
 
 **StayFlow Hub** is a desktop-based Hostel Management System built using **Java Swing** for a rich graphical user interface and **MySQL** for robust database management. This application simplifies hostel operations by providing specialized dashboards for both **Administrators** and **Hostel Residents (Students)**. It automates key tasks such as room allocation, warden tracking, student registration, cafeteria/meal plan subscriptions, and student complaint processing.
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 Here is a visual walkthrough of the StayFlow Hub application:
 
-| 🔑 1. Database Setup | 👥 2. Role Selection |
+| 1. Database Setup | 2. Role Selection |
 |:---:|:---:|
 | ![Database Setup](screenshots/login.png) | ![Role Selection](screenshots/role_selection.png) |
-| **📊 3. Admin Dashboard** | **🛏️ 4. Room Management** |
+| **3. Admin Dashboard** | **4. Room Management** |
 | ![Admin Dashboard](screenshots/admin_dashboard.png) | ![Room Management](screenshots/room_management.png) |
-| **🎓 5. Student Dashboard** | |
+| **5. Student Dashboard** | |
 | ![Student Dashboard](screenshots/student_dashboard.png) | |
 
 ---
 
-## ✨ Features
+## Features
 
-### 👤 Administrator Panel
+### Administrator Panel
 * **Live Dashboard Metrics**: Instantly view metrics like Total Students, Total Rooms, Total Wardens, and Pending Complaints.
 * **Room Management**: Add, update, delete, and view rooms (Standard or Luxury, sharing capacities, block names, and floor levels).
 * **Warden Tracking**: Manage warden rosters (Warden ID, name, age, contact, assigned hostel, and block).
@@ -28,7 +28,7 @@ Here is a visual walkthrough of the StayFlow Hub application:
 * **Complaint Resolution**: View complaints submitted by students, update processing status (Pending, In-Progress, Resolved), and log resolution timestamps.
 * **Cafeteria & Meals**: Monitor student meal plans, view user feedback, and modify daily dining menus.
 
-### 🎓 Student (Resident) Panel
+### Student (Resident) Panel
 * **Availability Viewer**: Check real-time room occupancies (Standard vs. Luxury, Sharing capacities, and Block details).
 * **Profile Management**: View personal student details, payment history, amounts paid, outstanding dues, and update credentials.
 * **Complaint Box**: Lodge complaints directly to administrators and track resolution progress.
@@ -39,7 +39,7 @@ Here is a visual walkthrough of the StayFlow Hub application:
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 * **GUI Framework**: Java Swing (AWT, `javax.swing`)
 * **Language**: Java SE (JDK 8 or higher)
@@ -49,7 +49,7 @@ Here is a visual walkthrough of the StayFlow Hub application:
 
 ---
 
-## 🗃️ Database Schema
+## Database Schema
 
 The database (`hostel_management`) automatically initializes itself on setup. The key entities include:
 * `admins`: Login credentials for host administrators.
@@ -66,7 +66,7 @@ The database (`hostel_management`) automatically initializes itself on setup. Th
 
 ---
 
-## 🚀 Setup & Installation Instructions
+## Setup & Installation Instructions
 
 Follow these steps to run the project on your local machine:
 
@@ -108,7 +108,7 @@ java -jar dist/Hostel-Management-CLI.jar
 
 ---
 
-## 👥 Developers
+## Developers
 
 * **Pranav Mistry** (NUV, CSE)
 * **Henisha Kandoi** (NUV, CSE)
@@ -117,5 +117,5 @@ java -jar dist/Hostel-Management-CLI.jar
 
 ---
 
-## 📄 License
+## License
 This project is open-source and available under the [MIT License](LICENSE).
